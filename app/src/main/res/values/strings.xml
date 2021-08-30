@@ -2,5 +2,9 @@
     <string name="app_name">Habits</string>
     <string name="image">Habit icon</string>
     <string name="title">Drink water</string>
-    <string name="description">A refereshing glass of water gets you hydrated</string>
+    <string name="description">A refreshing glass of water gets you hydrated</string>
+    <string name="begin_habit">Begin new habit…</string>
+    <string name="save_habit">Save habit</string>
+    <string name="choose_image">Choose an image…</string>
+    <string name="error">Error</string>
 </resources>

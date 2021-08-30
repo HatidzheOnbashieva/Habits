@@ -23,8 +23,7 @@ class HabitsAdapter(val habits: List<Habit>) : RecyclerView.Adapter<HabitsAdapte
        if(holder != null){
            holder.card.tv_title.text = habits[position].title
            holder.card.tv_description.text = habits[position].description
-           holder.card.ivIcon.setImageResource(habits[position].image)
-
+           holder.card.ivIcon.setImageBitmap(habits[position].image) //setImageResource(habits[position].image)
        }
     }
 
